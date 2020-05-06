@@ -2,4 +2,4 @@ tasks:
 - init: pip3 install cfn-lint
 vscode:
   extensions:
-    - kddejong.vscode-cfn-lint@0.10.20:3jS39ZZBIttaSEQP0R5BKg==
+    - kddejong.vscode-cfn-lint@0.11.2:BEU5as8Esjr4Oj5t8Rx3vQ==
