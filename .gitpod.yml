@@ -1,5 +1,5 @@
 tasks:
-- init: pip3 install cfn-lint pydot
+- init: pip3 install cfn-lint pydot && cfn-lint --update-iam-policies && cfn-lint --update-specs
 vscode:
   extensions:
     - kddejong.vscode-cfn-lint@0.11.2:BEU5as8Esjr4Oj5t8Rx3vQ==
