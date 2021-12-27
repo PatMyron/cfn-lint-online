@@ -1,5 +1,5 @@
 tasks:
-- init: pip3 install cfn-lint pydot cfripper checkov && cfn-lint --update-iam-policies && cfn-lint --update-specs; gem install cfn-nag &
+- init: brew install terraform tflint infracost checkov &
 vscode:
   extensions:
-    - kddejong.vscode-cfn-lint@0.16.1:8muFC6wgiT5zWnS2xTEKAw==
+    - hashicorp.terraform
