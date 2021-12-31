@@ -1,5 +1,5 @@
 tasks:
-- init: brew install -q terraform tflint infracost checkov &
+- init: brew install -q terraform tflint infracost checkov terrascan tfsec &
 vscode:
   extensions:
     - hashicorp.terraform
